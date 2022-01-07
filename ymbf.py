@@ -62,11 +62,11 @@ def jalan(z):
         time.sleep(0.03)
 def logo():
     print("""%s
-_logo_line_1_ = ('%s   _______ __         ___'%(O))
-        _logo_line_2_ = ('%s  / __/ (_) /____ %s©  %s<  /  ╔═══════════════════════╗'%(O,P,O))
-        _logo_line_3_ = ('%s / _// / / __/ -_)   / /   ║  %sCoded By %s  %s║'%(O,P,open('recode_anti.txt','r').read(),O))
-        _logo_line_4_ = ('%s/___/_/_/\__/\__/  _/ /_   ║    %s• XNSCODETEAM •    %s║'%(O,P,O))
-        _logo_line_5_ = ('%sMulti Brute Force %s/____/   ╚═══════════════════════╝'%(P,O))
+   _______ __         ___'%(O))
+  / __/ (_) /____ %s©  %s<  /  ╔═══════════════════════╗'%(O,P,O))
+ / _// / / __/ -_)   / /   ║  %sCoded By %s  %s║'%(O,P,open('recode_anti.txt','r').read(),O))
+/___/_/_/\__/\__/  _/ /_   ║    %s• XNSCODETEAM •    %s║'%(O,P,O))
+ Multi Brute Force %s/____/   ╚═══════════════════════╝'%(P,O))
 \033[92;1m----------------------------------------------------------
 \033[97;1m \033[92;1mCreator  \033[97;1m: \033[93;1mSanz-Tzy \033[97;1mX \033[93;1mHaris Ganz
 \033[97;1m \033[92;1mWhatsApp \033[97;1m: \033[93;1m083801xxxxx

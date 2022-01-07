@@ -61,7 +61,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 ### Logo
-def banner(cok):
+def banner():
     anti_ganti()
     if len(cok) != 10:kata_buat_perecode()
     else:

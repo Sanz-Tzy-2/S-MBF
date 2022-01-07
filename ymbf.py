@@ -60,21 +60,25 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.03)
-def logo():
-    print("""%s
-   _______ __         ___'%(O))
-  / __/ (_) /____ %s©  %s<  /  ╔═══════════════════════╗'%(O,P,O))
- / _// / / __/ -_)   / /   ║  %sCoded By %s  %s║'%(O,P,open('recode_anti.txt','r').read(),O))
-/___/_/_/\__/\__/  _/ /_   ║    %s• XNSCODETEAM •    %s║'%(O,P,O))
- Multi Brute Force %s/____/   ╚═══════════════════════╝'%(P,O))
-\033[92;1m----------------------------------------------------------
-\033[97;1m \033[92;1mCreator  \033[97;1m: \033[93;1mSanz-Tzy \033[97;1mX \033[93;1mHaris Ganz
-\033[97;1m \033[92;1mWhatsApp \033[97;1m: \033[93;1m083801xxxxx
-\033[97;1m \033[92;1mGithub   \033[97;1m: \033[93;1mHttps://github.com/Sanz-Tzy
-\033[97;1m \033[92;1mFacebook \033[97;1m: \033[93;1mBintang Tzy \033[97;1m[\033[92;1mFollow Me Facebook\033[97;1m]
-\033[97;1m\033[92;1m       Crack Facebook random akan kaya teh hijau
-\033[97;1m\033[93;1m---------------------------------------------------------
-"""%(N))
+### Logo
+def banner(cok):
+    anti_ganti()
+    if len(cok) != 10:kata_buat_perecode()
+    else:
+        _logo_line_1_ = ('%s   _______ __         ___'%(O))
+        _logo_line_2_ = ('%s  / __/ (_) /____ %s©  %s<  /  ╔═══════════════════════╗'%(O,P,O))
+        _logo_line_3_ = ('%s / _// / / __/ -_)   / /   ║  %sCoded By %s  %s║'%(O,P,open('recode_anti.txt','r').read(),O))
+        _logo_line_4_ = ('%s/___/_/_/\__/\__/  _/ /_   ║    %s• XNSCODETEAM •    %s║'%(O,P,O))
+        _logo_line_5_ = ('%sMulti Brute Force %s/____/   ╚═══════════════════════╝'%(P,O))
+        _dapunta_cici_(_logo_line_1_)
+        _dapunta_cici_(_logo_line_2_)
+        _dapunta_cici_(_logo_line_3_)
+        _dapunta_cici_(_logo_line_4_)
+        _dapunta_cici_(_logo_line_5_+'\n')
+        _haha_hihi_(_logo_line_3_)
+        _bacot_ = {'logo1':_logo_line_1_,'logo2':_logo_line_2_,'logo3':_logo_line_3_,'logo4':_logo_line_4_,'logo5':_logo_line_5_}
+        return(_bacot_)
+
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
         print('\n\n %s[%s#%s] \x1b[1;93mcrack selesai...\n'%(N,K,N))
@@ -140,7 +144,7 @@ def yayanxd():
         exit('\n\n %s[%s!%s] \x1b[1;91mtidak ada koneksi\n'%(N,M,N))
 def moch_yayan():
     os.system('clear')
-    logo()
+    banner()
     try:
         kontol = open('.token.txt', 'r').read()
     except IOError:

@@ -61,8 +61,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 ### Logo
-def banner():
-    anti_ganti()
+def logo():
     if len(cok) != 10:kata_buat_perecode()
     else:
         _logo_line_1_ = ('%s   _______ __         ___'%(O))
@@ -144,7 +143,7 @@ def yayanxd():
         exit('\n\n %s[%s!%s] \x1b[1;91mtidak ada koneksi\n'%(N,M,N))
 def moch_yayan():
     os.system('clear')
-    banner()
+    logo()
     try:
         kontol = open('.token.txt', 'r').read()
     except IOError:
